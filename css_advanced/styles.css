@@ -1,0 +1,463 @@
+/*Start Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+    color: #FFFFFf;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    /* color: black; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*End Global styles */
+
+/* start first page  */
+.container {
+    background-image: url(./images/Object.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding: 30px 150px;
+    height: 100vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+header nav ul li a {
+    color: #FFFFFf;
+}
+
+section .schooled {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 0;
+    color: #FFFFFf;
+}
+
+section .schooled h1 {
+    font-size: 110px;
+    word-spacing: -34px;
+    letter-spacing: -6px;
+}
+
+section .schooled div {
+    padding-bottom: 30px;
+    margin-top: -8px;
+}
+
+section .schooled div span {
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+section .schooled button {
+    background-color: #C271FF;
+    color: #FFFFFf;
+    font-size: 12px;
+    border: 1px;
+    border-radius: 29px;
+    padding: 14px 19px;
+    word-spacing: -5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 10px rgba(255, 255, 255, 0.3);
+    /* Light and dark shadows */
+}
+
+
+section .pros h2 {
+    font-size: 32px;
+    font-weight: 100;
+    word-spacing: -14px;
+    letter-spacing: -1px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+section .pros h2 span {
+    color: #C271FF;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+section .pros div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section .pros div div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+}
+
+section .pros div div img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+section .pros div div h3 {
+    font-size: 13px;
+    padding: 5px;
+}
+
+section .pros div div p {
+    font-size: 11px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    word-spacing: -3px;
+}
+
+/* End first page  */
+
+/* start second page  */
+section.two {
+    background-color: #C271FF;
+    height: 392px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.two .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 943px;
+    height: 160px;
+}
+
+section.two .parent>div {
+    margin-right: 55px;
+}
+
+section.two .parent div:nth-last-child(1) {
+    font-size: 21px;
+    word-spacing: -6px;
+    letter-spacing: -2px;
+}
+
+section.two .parent div blockquote {
+    font-weight: 300;
+}
+
+section.two .parent div h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section.two .parent div p {
+    font-style: italic;
+    font-weight: 300;
+}
+
+/*  section three */
+section.three {
+    background-color: #FFFFFf;
+    padding: 100px 150px;
+
+}
+
+section.three h2 {
+    color: #071629;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.three h2 span {
+    color: #C271FF;
+}
+
+section.three div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+section.three div div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+section.three div div img {
+    width: 255px;
+}
+
+
+.video-container-1::before {
+    content: url(./images/play.png);
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    top: 125px;
+    left: 132px;
+}
+
+
+section.three div div h3 {
+    color: #071629;
+    font-size: 16px;
+    padding: 10px;
+    word-spacing: -3px;
+    letter-spacing: -1px;
+}
+
+section.three div div p {
+
+    font-size: 14px;
+    color: #071629b0;
+    padding: 0px 10px;
+    letter-spacing: -1px;
+    word-spacing: -5px;
+    line-height: 1.5;
+}
+
+section.three div div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+
+
+}
+
+section.three div div div img {
+    width: 45px;
+    height: 45px;
+
+}
+
+section.three div div div h4 {
+    font-size: 14px;
+    color: #C271FF;
+    letter-spacing: -1px;
+    word-spacing: -3px;
+    padding-left: 10px;
+}
+
+section.three .parent-star {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+
+section.three i {
+    color: #C271FF;
+    letter-spacing: 6px;
+
+}
+
+section.three i.last {
+    color: #D8D8D8;
+}
+
+section.three .parent-star p {
+    padding-left: 49px;
+    color: #C271FF;
+}
+
+/* End second page  */
+
+/* start third page */
+section.four {
+    background-color: #071629;
+    height: 520px;
+    padding: 50px;
+
+}
+
+section.four h2 {
+    color: #FFFFFf;
+    text-align: center;
+    font-size: 32;
+    padding-bottom: 50px;
+}
+
+section.four h2 span {
+    color: #C271FF;
+}
+
+section.four .parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.four .parent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 257px;
+    height: 153px;
+}
+
+section.four .parent div img {
+    width: 44px;
+    height: 36;
+}
+
+section.four .parent div h3 {
+    font-size: 18px;
+    padding: 29px 0;
+}
+
+section.four .parent div p {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+section.four button {
+    background-color: #C271FF;
+    color: #FFFFFf;
+    font-size: 12px;
+    border: 1px;
+    border-radius: 29px;
+    padding: 14px 19px;
+    word-spacing: -5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 10px rgba(255, 255, 255, 0.3);
+    position: relative;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* End third page */
+/* start section five  */
+section.five {
+    padding: 80px 250px;
+    padding-bottom: 0;
+    background-color: #FFFFFf;
+}
+
+section.five h2 {
+    color: #071629;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+section.five .parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section.five .parent div {
+    width: 350px;
+    padding-bottom: 50px;
+}
+
+section.five .parent h3 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    word-spacing: -5px;
+    letter-spacing: -1px;
+}
+
+section.five .parent .para {
+    font-size: 14px;
+    font-weight: 400;
+    color: #071629a8;
+    word-spacing: -4px;
+    letter-spacing: -1px;
+}
+
+/* end section five  */
+footer {
+    height: 249px;
+    background-color: #071629;
+    padding: 100px 200px;
+}
+
+footer section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section div i {
+    padding: 5px 7px;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+footer section div .fa-facebook {
+    font-size: 40px;
+}
+
+footer section div .fa-twitter {
+    color: #071629;
+    background-color: #FFFFFf;
+    border-radius: 50%;
+}
+
+footer section div .fa-instagram {
+    color: #071629;
+    background-color: #FFFFFf;
+    border-radius: 50%;
+}
+
+footer p {
+    position: relative;
+    width: fit-content;
+    bottom: -3%;
+    top: 48px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffffa8;
+}
+
+/* start footer */
+
+/* end footer */
